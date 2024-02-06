@@ -1,0 +1,1 @@
+# fastapi_rabbit_mq
