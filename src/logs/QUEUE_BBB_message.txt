@@ -1,0 +1,8 @@
+QUEUE |QUEUE_BBB| MESSAGE at 2024-02-07 19:25:20.468471: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_BBB| MESSAGE at 2024-02-07 19:28:37.316131: {'type': 'from BORIS', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_BBB| MESSAGE at 2024-02-07 19:37:35.253565: {'type': 'from BORIS', 'message': 'Hello, my friend'}
+2024-02-07 19:44:00.661503 | QUEUE QUEUE_BBB | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:46:20.718442 | QUEUE QUEUE_BBB | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:57:34.754889 | QUEUE QUEUE_BBB | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 20:24:18.372043 | QUEUE QUEUE_BBB | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 20:33:50.015679 | QUEUE QUEUE_BBB | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}

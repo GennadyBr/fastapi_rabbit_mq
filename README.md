@@ -1,33 +1,46 @@
 # Тестовое задание для Backend Python Developer
 
-[Ссылка на GitHub](https://github.com/GennadyBr/fastapi_es_faq)
+[Ссылка на GitHub](https://github.com/GennadyBr/fastapi_rabbit_mq)
 
 
 ## Проект развернут на VPS
-[Ссылка на VPS](http://5.35.83.245:8003/docs)
+[Ссылка на VPS](http://5.35.83.245:8004/docs)
 
 ### Логи выводятся в консоль и в файл
-logs/fastapi_elk.log
+src/logs/producer.log
+src/logs/consumer.log
+
+### Сообщения из консьюмера выводятся в файлы по очередям
+src/logs/QUEUE_AAA_message.txt
+src/logs/QUEUE_BBB_message.txt
+src/logs/QUEUE_CCC_message.txt
 
 
 ## Для локального запуска выполните следующие команды
 
 ### Скопируйте репозиторий:
-git clone https://github.com/GennadyBr/fastapi_es_faq.git
+git clone https://github.com/GennadyBr/fastapi_rabbit_mq.git
 
 ### Переименуйте файл .env.example в .env:
+
+### Перейдите в папку с проектом:
+cd fastapi_rabbit_mq
 
 ### Запустите контейнеры:
 make up
 
-### Перейдите в папку с проектом:
-cd fastapi_es_faq
-
 ### Перейдите по ссылке:
-http://0.0.0.0:8003/docs
+http://0.0.0.0:8004/docs
 
 ### Логи выводятся в консоль и в файл
-logs/fastapi_elk.log
+src/logs/producer.log
+src/logs/consumer.log
+
+### Сообщения из консьюмера выводятся в файлы по очередям
+src/logs/QUEUE_AAA_message.txt
+src/logs/QUEUE_BBB_message.txt
+src/logs/QUEUE_CCC_message.txt
+
 
 
 ## Задача: 

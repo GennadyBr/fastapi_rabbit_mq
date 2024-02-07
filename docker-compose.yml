@@ -1,23 +1,69 @@
-version: '3.5'
+version: '3.9'
+
 services:
-  fastapi_producer:
-    build: .
-    container_name: fastapi_producer
-    restart: always
-    ports:
-      - ${APP_PORT}:${APP_PORT}
+  app:
+    build:
+      context: .
+      dockerfile: src/Dockerfile_producer
     volumes:
-      - .:/src
-      - ./logs:/src/logs
+      - ./src:/app
+    restart: on-failure
     env_file:
       - .env
-#    command: uvicorn main:app --reload --host 0.0.0.0 --port ${APP_PORT}
-
-  rabbit1:
-    image: library/rabbitmq:3.8.4-management
     ports:
-      - "5672:5672"
-      - "15672:15672"
-    hostname: rabbit1
-    container_name: rabbit1
+      - "8004:8004"
+    depends_on:
+      rabbit:
+        condition: service_healthy
+
+  consumer_a:
+    build:
+      context: .
+      dockerfile: src/Dockerfile_consumer_a
     restart: always
+    volumes:
+      - ./src:/app
+    env_file:
+      - .env
+    depends_on:
+      rabbit:
+        condition: service_healthy
+
+  consumer_b:
+    build:
+      context: .
+      dockerfile: src/Dockerfile_consumer_b
+    restart: always
+    volumes:
+      - ./src:/app
+    env_file:
+      - .env
+    depends_on:
+      rabbit:
+        condition: service_healthy
+
+  consumer_c:
+    build:
+      context: .
+      dockerfile: src/Dockerfile_consumer_c
+    restart: always
+    volumes:
+      - ./src:/app
+    env_file:
+      - .env
+    depends_on:
+      rabbit:
+        condition: service_healthy
+
+  rabbit:
+    image: rabbitmq:3.11.11-management
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "15672:15672"
+    healthcheck:
+      test: [ "CMD", "rabbitmqctl", "status" ]
+      interval: 10s
+      timeout: 10s
+      retries: 5

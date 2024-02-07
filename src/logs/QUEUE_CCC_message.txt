@@ -1,0 +1,7 @@
+QUEUE |QUEUE_CCC| MESSAGE at 2024-02-07 19:28:46.277934: {'type': 'from CARLO', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_CCC| MESSAGE at 2024-02-07 19:37:45.168660: {'type': 'from CARLO', 'message': 'Hello, my friend'}
+2024-02-07 19:44:09.890961 | QUEUE QUEUE_CCC | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:46:17.424813 | QUEUE QUEUE_CCC | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:57:38.354467 | QUEUE QUEUE_CCC | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 20:24:14.421783 | QUEUE QUEUE_CCC | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 20:33:53.429581 | QUEUE QUEUE_CCC | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
