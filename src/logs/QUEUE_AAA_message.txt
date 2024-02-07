@@ -1,0 +1,10 @@
+QUEUE |QUEUE_AAA| MESSAGE at 2024-02-07 19:12:43.539351: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_AAA| MESSAGE at 2024-02-07 19:19:22.851046: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_AAA| MESSAGE at 2024-02-07 19:25:16.171400: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_AAA| MESSAGE at 2024-02-07 19:28:26.765294: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |QUEUE_AAA| MESSAGE at 2024-02-07 19:37:24.994758: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:44:06.779404 | QUEUE QUEUE_AAA | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:46:23.783917 | QUEUE QUEUE_AAA | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 19:57:31.193533 | QUEUE QUEUE_AAA | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 20:24:22.109693 | QUEUE QUEUE_AAA | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+2024-02-07 20:33:46.498340 | QUEUE QUEUE_AAA | MESSAGE: {'type': 'from Alexandr', 'message': 'Hello, my friend'}

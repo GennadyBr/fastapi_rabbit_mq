@@ -1,0 +1,6 @@
+QUEUE |test_queue| MESSAGE at 2024-02-07 18:23:44.822827: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |test_queue| MESSAGE at 2024-02-07 18:23:55.608993: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |test_queue| MESSAGE at 2024-02-07 18:30:47.355472: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |test_queue| MESSAGE at 2024-02-07 18:50:27.145654: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |test_queue| MESSAGE at 2024-02-07 19:00:24.833561: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
+QUEUE |test_queue| MESSAGE at 2024-02-07 19:01:55.639304: {'type': 'from Alexandr', 'message': 'Hello, my friend'}
