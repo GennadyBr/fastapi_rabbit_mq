@@ -1,5 +1,5 @@
 # Тестовое задание для Middle Python Developer
-[Ссылка на GitHub](https://github.com/GennadyBr/fastapi_rabbit_mq)
+    [Ссылка на GitHub](https://github.com/GennadyBr/fastapi_rabbit_mq)
 
 
 ## Задача: 
@@ -21,45 +21,43 @@
 
 
 ## Проект развернут на VPS
-[Ссылка на VPS](http://5.35.83.245:8004/docs)
+    [Ссылка на VPS](http://5.35.83.245:8004/docs)
 
 ### Логи выводятся в консоль и в файл
-src/logs/producer.log
-src/logs/consumer.log
+    src/logs/producer.log
+    src/logs/consumer.log
 
 ### Сообщения из консьюмера выводятся в файлы по очередям
-src/logs/QUEUE_AAA_message.txt
-src/logs/QUEUE_BBB_message.txt
-src/logs/QUEUE_CCC_message.txt
+    src/logs/QUEUE_AAA_message.txt
+    src/logs/QUEUE_BBB_message.txt
+    src/logs/QUEUE_CCC_message.txt
 
 
 ## Для локального запуска выполните следующие команды
 
 ### Скопируйте репозиторий:
-git clone https://github.com/GennadyBr/fastapi_rabbit_mq.git
+    git clone https://github.com/GennadyBr/fastapi_rabbit_mq.git
 
-### Переименуйте файл .env.example в .env:
+### Переименуйте файл 
+    .env.example в .env:
 
 ### Перейдите в папку с проектом:
-cd fastapi_rabbit_mq
+    cd fastapi_rabbit_mq
 
 ### Запустите контейнеры:
-make up
+    make up
 
 ### Перейдите по ссылке:
-http://0.0.0.0:8004/docs
+    http://0.0.0.0:8004/docs
 
 ### Логи выводятся в консоль и в файл
-src/logs/producer.log
-src/logs/consumer.log
+    src/logs/producer.log
+    src/logs/consumer.log
 
 ### Сообщения из консьюмера выводятся в файлы по очередям
-src/logs/QUEUE_AAA_message.txt
-src/logs/QUEUE_BBB_message.txt
-src/logs/QUEUE_CCC_message.txt
-
-
-
+    src/logs/QUEUE_AAA_message.txt
+    src/logs/QUEUE_BBB_message.txt
+    src/logs/QUEUE_CCC_message.txt
 
 
 ### Инструкции для сдачи тестового задания:
