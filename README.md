@@ -1,5 +1,5 @@
 # Тестовое задание для Middle Python Developer
-    [Ссылка на GitHub](https://github.com/GennadyBr/fastapi_rabbit_mq)
+[Ссылка на GitHub](https://github.com/GennadyBr/fastapi_rabbit_mq)
 
 
 ## Задача: 
@@ -21,7 +21,7 @@
 
 
 ## Проект развернут на VPS
-    [Ссылка на VPS](http://5.35.83.245:8004/docs)
+[Ссылка на VPS](http://5.35.83.245:8004/docs)
 
 ### Логи выводятся в консоль и в файл
     src/logs/producer.log
